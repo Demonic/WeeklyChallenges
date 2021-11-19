@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+    id 'com.github.johnrengelman.shadow' version '6.0.0'
+}
+
+group 'net.demonly.stickychallenges'
+version '1.1-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+    jcenter()
+    maven { url = 'https://hub.spigotmc.org/nexus/content/repositories/snapshots/' }
+    maven { url "https://jitpack.io" }
+}
+
+dependencies {
+    compileOnly 'org.spigotmc:spigot-api:1.16.5-R0.1-SNAPSHOT'
+    compileOnly 'org.xerial:sqlite-jdbc:3.8.11.2'
+    annotationProcessor 'org.projectlombok:lombok:1.18.16'
+    compileOnly 'org.projectlombok:lombok:1.18.16'
+    implementation 'com.github.dig:bukkit-gui:1.1'
+}
+
+shadowJar {
+    relocate 'com.github.dig.gui', 'net.demonly.stickychallenges.lib.gui'
+}

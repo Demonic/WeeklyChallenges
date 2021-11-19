@@ -1,0 +1,25 @@
+# Don't change unless you want to completely wipe the database/current challenge.
+# This requires a restart if you change this.
+database_name: challenges.db
+
+# How often we save to the database, in minutes
+autosave: 5
+
+# How often we update top contributors in seconds
+autoupdate: 30
+
+# Challenge complete sound
+challenge_completed_sound: BLOCK_PORTAL_TRAVEL
+
+# Challenge complete title, numbers are in ticks. 20 ticks = 1 second
+title:
+  fade_in: 40
+  stay: 80
+  fade_out: 40
+
+# Progress bar for menu
+Progress_bar:
+  amount: 30
+  symbol: "|"
+  normal_color: "&7"
+  completed_color: "&a"

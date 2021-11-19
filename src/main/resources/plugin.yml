@@ -1,0 +1,16 @@
+name: StickyChallenges
+main: net.demonly.stickychallenges.StickyChallengesPlugin
+author: Demonly
+version: 1.1
+api-version: 1.16
+commands:
+  endchallenge:
+    description: End the current challenge
+    permission: stickychallenges.end
+    permission-message: Error. You do not have permission.
+  weeklychallenge:
+    description: Weekly Challenge command, default opens menu.
+    permission: stickychallenges.cmd
+    permission-message: Error. You do not have permission.
+    aliases:
+      - wc

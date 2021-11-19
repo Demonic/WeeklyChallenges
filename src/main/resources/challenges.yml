@@ -1,0 +1,45 @@
+Challenges:
+
+  # Do not modify challenge while it's running or if it's the previous challenge.
+  break_grass:
+    # The type of challenge
+    type: BREAK
+    objective: GRASS_BLOCK
+    # Amount
+    amount: 25
+    objective_text: "Dig up 25 grass blocks"
+    rewards:
+      first:
+        - "say first place 1 %player%"
+        - "say first place 2 %player%"
+      second:
+        - "say second place 1 %player%"
+        - "say second place 2 %player%"
+      third:
+        - "say third place 1 %player%"
+        - "say third place 1 %player%"
+      default:
+        - "say Default 1 %player%"
+        - "say Default 1 %player%"
+
+  # Do not modify challenge while it's running or if it's the previous challenge.
+  place_oak_wood:
+    # The type of challenge
+    type: PLACE
+    objective: OAK_LOG
+    # Amount
+    amount: 25
+    objective_text: "Place 25 oak logs"
+    rewards:
+      first:
+        - "say first place 1 %player%"
+        - "say first place 2 %player%"
+      second:
+        - "say second place 1 %player%"
+        - "say second place 2 %player%"
+      third:
+        - "say third place 1 %player%"
+        - "say third place 1 %player%"
+      default:
+        - "say Default 1 %player%"
+        - "say Default 1 %player%"

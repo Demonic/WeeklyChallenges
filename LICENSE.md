@@ -1,8 +1,8 @@
 All Rights Reserved
 
-Copyright (c) WeeklyChallenges Demonic/ aka discrim; Demonly#0171
+Copyright (c) WeeklyChallenges
 
-Created by Demonic
+Created by Demonic/ aka discrim; Demonly#0171
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
